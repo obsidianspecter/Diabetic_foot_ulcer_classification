@@ -86,6 +86,22 @@ local_database_Processed/
   * Moderate: Precision=0.00, Recall=0.00, F1=0.00
   * Severe: Precision=0.00, Recall=0.00, F1=0.00
 
+### Visualization Results
+
+#### Training History
+![Training History](training_history.png)
+*Figure 1: Training and validation accuracy/loss curves showing model learning progression over epochs*
+
+#### Detailed Training Metrics
+![Detailed Training History](detailed_training_history.png)
+*Figure 2: Detailed visualization of model performance metrics including class-wise accuracy and loss*
+
+The training history plots reveal:
+- Initial rapid learning in the first few epochs
+- Signs of overfitting as indicated by the divergence between training and validation curves
+- Impact of class imbalance visible in the per-class performance metrics
+- Effectiveness of implemented regularization techniques in stabilizing the learning process
+
 ### Challenges and Solutions
 1. **Class Imbalance**
    - Challenge: Uneven distribution (34 normal, 14 moderate, 14 severe)
