@@ -166,5 +166,4 @@ This project addresses the critical need for automated diabetic foot ulcer asses
 3. Thermal Imaging in Medical Diagnosis
 4. Class Imbalance in Medical Image Analysis
 
-## Contact Information
-For questions or collaboration opportunities, please contact [Your Contact Information] # Diabetic_foot_ulcer_classification
+
